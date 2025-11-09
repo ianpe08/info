@@ -93,6 +93,14 @@ h1 {
     align-items: center;
     border-radius: 10px;
 }
+.cont8:hover {
+    border: 1px solid #D4AF37;
+}
+.cont8:hover h2 {
+    color: #D4AF37;
+    font-weight: 600;
+
+}
 .cont:hover {
     border: 1px solid #D4AF37;
 }
@@ -130,4 +138,14 @@ a:hover {
     top: 385px;
     left: 30%;
     font-size: 20px;
+}
+.contenedor-herramientas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.herramienta {
+    background-color: #1A1A1A;
+    margin: 10px 20px;
+    padding: 7px;
+    font-size: 35px;
 }
